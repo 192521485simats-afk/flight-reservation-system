@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Reservation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>✈️ Flight Reservation System</h1>
+
+    <hr>
+
+    <h2>Search Flights</h2>
+
+    <!-- Flight Type -->
+    <label>Flight Type:</label>
+    <input type="radio" name="flightType" checked> Domestic
+    <input type="radio" name="flightType"> International
+
+    <br><br>
+
+    <!-- Trip Type -->
+    <label>Trip Type:</label>
+    <input type="radio" name="tripType" checked> One Way
+    <input type="radio" name="tripType"> Round Trip
+
+    <br><br>
+
+    <!-- From -->
+    <label>From:</label>
+    <select>
+        <option>Chennai (MAA)</option>
+        <option>Mumbai (BOM)</option>
+        <option>Delhi (DEL)</option>
+        <option>Bangalore (BLR)</option>
+        <option>Hyderabad (HYD)</option>
+    </select>
+
+    <br><br>
+
+    <!-- To -->
+    <label>To:</label>
+    <select>
+        <option>Delhi (DEL)</option>
+        <option>Chennai (MAA)</option>
+        <option>Mumbai (BOM)</option>
+        <option>Bangalore (BLR)</option>
+        <option>Hyderabad (HYD)</option>
+    </select>
+
+    <br><br>
+
+    <!-- Departure -->
+    <label>Departure:</label>
+    <input type="date">
+
+    <br><br>
+
+    <!-- Return -->
+    <label>Return:</label>
+    <input type="date">
+
+    <br><br>
+
+    <!-- Travelers -->
+    <label>Travelers:</label>
+    <input type="number" value="1" min="1" max="10">
+
+    <br><br>
+
+    <!-- Class -->
+    <label>Class:</label>
+    <select>
+        <option>Economy</option>
+        <option>Premium Economy</option>
+        <option>Business</option>
+        <option>First Class</option>
+    </select>
+
+    <br><br>
+
+    <!-- Fare Type -->
+    <label>Fare Type:</label>
+    <select>
+        <option>Regular</option>
+        <option>Saver</option>
+        <option>Flexi</option>
+    </select>
+
+    <br><br>
+
+    <button>🔍 Search Flights</button>
+
+</body>
+</html>
